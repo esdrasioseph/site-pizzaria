@@ -256,3 +256,29 @@ footer {
     text-decoration: none;
     color: var(--color-background);
 }
+
+@media (max-width: 768px) {
+    
+    .hero__foreground {
+        padding-top: 10vh; 
+        padding-left: 1rem; 
+        padding-right: 1rem;
+    }
+
+    .hero__title {
+        font-size: 1.8rem; 
+        letter-spacing: 0.05rem; 
+        line-height: 1.2; 
+    }
+
+    .hero__text {
+        font-size: 1rem;
+        padding: 0 0.5rem;
+    }
+
+    .about__foreground {
+        padding-top: 10vh; 
+        padding-left: 1rem; 
+        padding-right: 1rem;
+    }
+}
