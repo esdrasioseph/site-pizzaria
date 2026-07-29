@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+:root {
+    --color-background: rgb(254,254,254);
+    --color-grey: rgb(234,234,234);
+    --yellow-color: rgb(254,165,4);
+    --black-color: rgb(35,35,35);
+}
+
+body {
+    background-color: var(--color-background);
+}
+
+header {
+    background-color: var(--black-color);
+
+}
+
+.box__header-inline-block > li {
+    display: inline-block;
+    margin: 1.5rem;
+}
+
+li > a {
+    text-decoration: none;
+    color: var(--color-background);
+    font-weight: 400;
+}
+
+.box__header-inline-block {
+    text-align: center;
+    padding-bottom: 0.1rem;
+}
+
+.hero__section {
+    text-align: center;
+    color: var(--color-background);
+    height: 92vh;
+    background-color: rgb(0,0,0,0.2);
+    position: relative;
+    overflow: hidden;
+}
+
+.hero__title {
+    font-family: Manrope, Arial, Helvetica, sans-serif;
+    letter-spacing: 0.3rem;
+    font-size: xx-large;
+    font-weight: 300;
+    margin-bottom: 1.5rem
+}
+
+.hero__text {
+    margin-bottom: 2rem;
+}
+
+.hero__button {
+    background-color: rgb(254,165,4);
+    color: var(--black-color);
+    padding: 0.6rem 1.2rem;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: rgb(0,0,0);
+    border-radius: 0.8rem;
+    text-decoration: none;
+}
+
+
+.hero__background {
+    width: 100%;
+    height: 92vh;
+    object-fit: cover;
+    z-index: -12;
+    top: 0;
+    position: absolute;
+    display: block;
+    object-position: top;
+}
+
+.hero__foreground {
+    text-align: center;
+    padding-top: 15vh;
+}
+
+.menu__title {
+    text-align: center;
+    margin: 2.5rem;
+}
+
+.menu__img {
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.menu__img-inline-block {
+    display:inline-block ;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    margin-right:2rem;
+}
+
+.menu__img-inline-block:nth-child(3n) {
+    margin-right: 1rem;
+}
+
+ .menu__img-inline-block:nth-child(1n),
+ .menu__img-inline-block:nth-child(3n)  {
+    margin-left: 1rem;
+}
+
+
+.menu__ilustration {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    display: block;
+    border-radius: 0.3rem;
+}
+
+.ilustration__box {
+    background-color: var(--color-grey);
+    padding-left: 0.7rem;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+    max-width: 350;
+    border-bottom-left-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+}
+
+.ilustration__text,
+.menu__pizza-name {
+    text-align: left;
+}
+
+.ilustration__text {
+    margin-top: 0.8rem;
+    max-width: 20rem;
+}
+
+.menu__pizza-name {
+    margin-top: 0rem;
+}
+
+.about__section {
+    text-align: center;
+    position: relative;
+    background-color: rgb(0,0,0,0.3);
+    height: 25vh;
+    margin: 2rem 0;
+}
+
+.about__background {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 25vh;
+    object-fit: cover;
+    display: block;
+    z-index: -12;
+    overflow: hidden;
+}
+
+.about__foreground {
+    text-align: center;
+    padding-top: 5vh;
+    color: var(--color-background);
+}
+
+.about__title {
+    margin-top: 1rem;
+}
+
+.about__text {
+    margin-top: 1rem;
+}
+
+.contact__main {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.contact__text {
+    margin-top: 1rem;
+}
+
+.contact__list {
+    text-align: center;
+}
+
+.contact__list > .contact__item-inline-block {
+    display: inline-block;
+    margin: 1rem 1rem;
+}
+
+.contact__item-title {
+    font-weight: bold;
+}
+
+.contact__item-inline-block > p {
+    display: inline;
+}
+
+.contact__item-block {
+    display: block;
+    max-width: 20rem;
+    text-align: left;
+}
+
+.contact__item-inline > p {
+    display: inline;
+}
+
+.contact__item-block-no-max-width {
+    max-width: none;
+    text-align: left;
+}
+
+.contact__item-e-mail {
+    color: var(--yellow-color);
+}
+
+.contact__button {
+    display:block;
+    margin: 2rem auto;
+    background-color: var(--yellow-color);
+    color: var(--black-color);
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    max-width: fit-content;
+    padding: 0.6rem 1.2rem;
+    border: rgb(0,0,0);
+    border-radius: 0.8rem;
+}
+
+footer {
+  
+    background-color: var(--black-color);
+    color: var(--yellow-color);
+    padding-bottom: 0.5rem;
+}
+
+.pizza__copy {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.esdras__sign {
+    color: var(--color-background);
+}
+
+.esdras__link {
+    text-decoration: none;
+    color: var(--color-background);
+}
